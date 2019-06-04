@@ -18,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5822C72422A55B9A005F4B70 /* Dax-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-light.ttf"; sourceTree = "<group>"; };
 		5822C72522A55B9B005F4B70 /* Dax-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-medium.ttf"; sourceTree = "<group>"; };
 		582A84A322A4F94B0020BBC5 /* ScreenSpeechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSpeechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		582A84A622A4F94B0020BBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		582A84B222A4F94D0020BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582A84BD22A515660020BBC5 /* Dax-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-regular.ttf"; sourceTree = "<group>"; };
 		583FF04C22A6518900384219 /* ValidationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationData.swift; sourceTree = "<group>"; };
+		583FF04E22A6E3DF00384219 /* Dax-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-light.ttf"; sourceTree = "<group>"; };
 		584746FE22A54C2B00199744 /* Dax-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		582A84BC22A5151A0020BBC5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				5822C72422A55B9A005F4B70 /* Dax-light.ttf */,
+				583FF04E22A6E3DF00384219 /* Dax-light.ttf */,
 				5822C72522A55B9B005F4B70 /* Dax-medium.ttf */,
 				584746FE22A54C2B00199744 /* Dax-bold.ttf */,
 				582A84BD22A515660020BBC5 /* Dax-regular.ttf */,
