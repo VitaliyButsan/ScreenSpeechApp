@@ -13,6 +13,7 @@
 		582A84AE22A4F94D0020BBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582A84AD22A4F94D0020BBC5 /* Assets.xcassets */; };
 		582A84B122A4F94D0020BBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582A84AF22A4F94D0020BBC5 /* LaunchScreen.storyboard */; };
 		582A84BE22A515660020BBC5 /* Dax-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 582A84BD22A515660020BBC5 /* Dax-regular.ttf */; };
+		583FF04D22A6518900384219 /* ValidationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583FF04C22A6518900384219 /* ValidationData.swift */; };
 		584746FF22A54C4200199744 /* Dax-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 584746FE22A54C2B00199744 /* Dax-bold.ttf */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		582A84B022A4F94D0020BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		582A84B222A4F94D0020BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582A84BD22A515660020BBC5 /* Dax-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-regular.ttf"; sourceTree = "<group>"; };
+		583FF04C22A6518900384219 /* ValidationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationData.swift; sourceTree = "<group>"; };
 		584746FE22A54C2B00199744 /* Dax-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dax-bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		582A84A522A4F94B0020BBC5 /* ScreenSpeechApp */ = {
 			isa = PBXGroup;
 			children = (
+				583FF04B22A6517000384219 /* DataModel */,
 				582A84BC22A5151A0020BBC5 /* Fonts */,
 				582A84B922A4F9700020BBC5 /* ViewControllers */,
 				582A84B822A4F9650020BBC5 /* Storyboards */,
@@ -112,6 +115,14 @@
 				582A84BD22A515660020BBC5 /* Dax-regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		583FF04B22A6517000384219 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				583FF04C22A6518900384219 /* ValidationData.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				582A84A922A4F94B0020BBC5 /* ViewController.swift in Sources */,
+				583FF04D22A6518900384219 /* ValidationData.swift in Sources */,
 				582A84A722A4F94B0020BBC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -54,9 +54,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Enter your name here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RS0-re-YhU">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your name here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RS0-re-YhU">
                                 <rect key="frame" x="26" y="141.66666666666666" width="362" height="38"/>
-                                <color key="backgroundColor" red="1" green="0.95764537849999998" blue="0.94464181000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RS0-re-YhU" secondAttribute="height" multiplier="181:19" id="5ox-nF-hQ6"/>
                                 </constraints>
@@ -72,6 +72,9 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8rf-Fl-fIH"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5y-iy-hJj">
                                 <rect key="frame" x="26" y="202.66666666666666" width="362" height="18"/>
@@ -82,9 +85,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Spesify a username for TheSpeech" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fTR-aF-bBz">
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Spesify a username for TheSpeech" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fTR-aF-bBz">
                                 <rect key="frame" x="26" y="229.66666666666666" width="362" height="37.999999999999972"/>
-                                <color key="backgroundColor" red="1" green="0.95764537849999998" blue="0.94464181000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fTR-aF-bBz" secondAttribute="height" multiplier="181:19" id="p0E-ML-GsK"/>
                                 </constraints>
@@ -100,6 +103,9 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="wHl-ND-3ir"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF0-2M-mcn">
                                 <rect key="frame" x="26" y="291.66666666666669" width="362" height="18"/>
@@ -110,9 +116,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Enter your email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="73Q-vb-L6w">
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="73Q-vb-L6w">
                                 <rect key="frame" x="26" y="318.66666666666669" width="362" height="38"/>
-                                <color key="backgroundColor" red="1" green="0.95764537849999998" blue="0.94464181000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="73Q-vb-L6w" secondAttribute="height" multiplier="181:19" id="5t2-9x-Ruf"/>
                                 </constraints>
@@ -128,6 +134,9 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="f52-zM-OjA"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6J-c3-p87">
                                 <rect key="frame" x="26" y="379.66666666666669" width="362" height="18"/>
@@ -138,9 +147,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Enter your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2U5-XR-N4R">
+                            <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2U5-XR-N4R">
                                 <rect key="frame" x="26" y="406.66666666666669" width="362" height="38"/>
-                                <color key="backgroundColor" red="1" green="0.95764537849999998" blue="0.94464181000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2U5-XR-N4R" secondAttribute="height" multiplier="181:19" id="EOI-Pl-9Lp"/>
                                 </constraints>
@@ -156,8 +165,11 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="TQE-zU-TWp"/>
+                                </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjb-Sa-9on">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjb-Sa-9on">
                                 <rect key="frame" x="26" y="470.66666666666669" width="362" height="38"/>
                                 <color key="backgroundColor" red="0.86268746852874756" green="0.86278802156448364" blue="0.86264246702194214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -183,7 +195,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o65-wR-smp">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o65-wR-smp">
                                 <rect key="frame" x="213" y="538.66666666666663" width="175" height="38"/>
                                 <color key="backgroundColor" red="0.35291555523872375" green="0.35296022891998291" blue="0.35289555788040161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -199,7 +211,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gii-lP-S60">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gii-lP-S60">
                                 <rect key="frame" x="26" y="538.66666666666663" width="175" height="38"/>
                                 <color key="backgroundColor" red="0.35291555523872375" green="0.35296022891998291" blue="0.35289555788040161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -250,6 +262,9 @@
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wp5-bN-ogG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -308,7 +323,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="73Q-vb-L6w" id="cc8-dE-48L"/>
+                        <outlet property="nameTextField" destination="RS0-re-YhU" id="CWc-pc-Xh9"/>
+                        <outlet property="passwordTextField" destination="2U5-XR-N4R" id="PqR-ak-qsH"/>
                         <outlet property="speechTextLabel" destination="mqU-11-gjq" id="F5y-z2-tie"/>
+                        <outlet property="userNameTextField" destination="fTR-aF-bBz" id="K7r-Mj-jBX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
